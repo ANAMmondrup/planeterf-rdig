@@ -1,0 +1,168 @@
+body{
+    background-color: #DFEAEB;
+}
+
+
+header {
+    font-size: 96px;
+    font-family: Abhaya libre extrabold;
+    text-align: center;
+    color: #485B72;
+   border-top: #33596f 3px solid;
+   background-color: #ffffff00;
+}
+
+p {
+    font-family: Julius sans one;
+    color: #ffffff;
+    z-index: 1;
+    font-size: x-large;
+}
+
+/*-her starter tid, år og neptun billede 2-*/
+
+.neptun {
+    width: 100%;
+    height: auto;
+}
+
+.forbillede {
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+
+.tid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content:space-around;
+    background-image: url('neptun1billede.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    align-items: center;
+    }
+
+.one_year {
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+/*-her slutter tid, år og neptun billede 2-*/
+
+/*-her starter grader og omkreds-*/
+.omkredsgrad{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    position: relative;
+    justify-content:space-around;
+    background-image: url('neptune1planet.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    align-items: center;
+}
+
+
+.surface1text {
+display:flex;
+flex-direction: column;
+justify-content:space-around;
+}
+/*-her slutter grader og omkreds-*/
+
+
+/*-her starter kasse 1-*/
+
+.kassetext {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    
+}
+
+.kasse1text {
+    font-size: 47px;
+    display: flex;
+}
+
+.text {
+    font-size: 20px;
+    font-family: julius sans one;
+    flex: 1;
+    margin-left: 43%;
+    line-height: 1.5;
+}
+
+/*-her slutter kasse 1-*/
+
+/*-her starter måner og billede 2-*/
+
+.surface2text{
+    position: relative;
+}
+
+.maaner{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content:space-around;
+    position: relative;
+    align-items: center;
+    background-image: url('neptun2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+/*-her slutter måner og billede 2-*/
+
+/*-her starter atmosfære of sidste billede-*/
+
+.surface3text {
+    position: relative;
+}
+
+.atmos {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content:space-around;
+    position: relative;
+    align-items: center;
+    background-image: url('surface33.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: auto;
+    
+}
+
+
+
+/*-her slutter atmosfære of sidste billede-*/
+
+p {
+    font-family: Julius sans one;
+    font-size: 50px;
+}
+
+
+
